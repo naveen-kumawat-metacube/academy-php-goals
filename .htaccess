@@ -1,0 +1,9 @@
+# mod_rewrite
+# directive
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>    
+    DirectoryIndex index.php 
+</IfModule>
